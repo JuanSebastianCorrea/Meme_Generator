@@ -1,0 +1,123 @@
+body {
+	background-color: rgb(255, 244, 226);
+}
+h1 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-family: 'Anton', sans-serif;
+}
+h5 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-family: monospace;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+form {
+	position: relative;
+	border: 1px solid rgb(133, 133, 133);
+	border-radius: 20px;
+	width: 600px;
+	height: 150px;
+	padding: 10px;
+	background-color: rgba(186, 213, 248, 0.5);
+}
+
+label {
+	position: relative;
+	left: 10px;
+	display: flex;
+	align-items: center;
+	margin: 5px;
+	font-family: 'Inconsolata', monospace;
+}
+
+input {
+	position: relative;
+	display: flex;
+	background-color: rgb(236, 232, 230);
+	border: .5px solid rgb(161, 160, 159);
+	width: 60%;
+	margin: 4px 10px 4px 10px;
+	font-family: 'Inconsolata', monospace;
+}
+
+#submitButton {
+	position: absolute;
+	top: 55px;
+	right: 20px;
+	display: flex;
+	justify-content: center;
+	border-radius: 50px;
+	width: 3em;
+	height: 3em;
+	padding: 1px;
+	background-color: rgb(136, 173, 253);
+	color: white;
+	font-family: 'Inconsolata', monospace;
+	font-size: 15px;
+	outline: none;
+	cursor: pointer;
+}
+
+.imgDivStyles {
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	background-position: center;
+	border-radius: .5em;
+	margin: 2em 2em;
+	word-wrap: break-word;
+	cursor: pointer;
+}
+
+.textStyles {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	color: white;
+	width: 200px;
+	height: auto;
+	font-size: 1.5em;
+	text-align: center;
+	cursor: pointer;
+}
+
+#pushDown {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-self: flex-end;
+	flex-direction: column-reverse;
+	text-align: center;
+}
+
+.remover {
+	position: absolute;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	width: 200px;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 6px;
+	word-wrap: break-word;
+	cursor: pointer;
+	z-index: 1;
+	color: rgba(249, 194, 127, 0);
+	font-size: 100px;
+}
+.remover:hover {
+	background-color: rgba(0, 0, 0, .5);
+	color: rgba(249, 194, 127, 0.41);
+}
