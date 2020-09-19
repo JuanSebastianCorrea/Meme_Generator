@@ -121,3 +121,39 @@ input {
 	background-color: rgba(0, 0, 0, .5);
 	color: rgba(249, 194, 127, 0.41);
 }
+
+@media (max-width: 450px) {
+	#submitButton {
+		right: 15px;
+	}
+	input {
+		width: 50%;
+		word-spacing: -2px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 430px) {
+	#submitButton {
+		right: 5px;
+	}
+}
+
+@media (max-width: 380px) {
+	input {
+		width: 50%;
+		word-spacing: -2px;
+		font-size: 9px;
+	}
+}
+
+@media (max-width: 330px) {
+	#submitButton {
+		right: -4px;
+	}
+	input {
+		width: 50%;
+		word-spacing: -2px;
+		font-size: 8px;
+	}
+}
